@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./home2.css";
 
 function Home({ username }) {
   return (
