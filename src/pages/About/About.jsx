@@ -1,4 +1,4 @@
-import "./About.css"
+import "./about2.css"
 
 function About() {
     return (
@@ -11,11 +11,11 @@ function About() {
 
                     <div className="about-content">
                         <p>
-                        Book Nook is a cozy corner designed for book lovers who want to keep an organized and accessible record of their books. The idea comes from my personal experience as a reader and the need to manage my personal library in a more comfortable and visually pleasant way.
+                            Book Nook is a cozy corner designed for book lovers who want to keep an organized and accessible record of their books. The idea comes from my personal experience as a reader and the need to manage my personal library in a more comfortable and visually pleasant way.
                         </p>
 
                         <p>
-                        I focused on maintaining a clean and minimalist design because I believe that an intuitive navigation experience is key to engaging the user. A good design can make the difference between abandoning an app or turning it into a space you always want to return to.
+                            I focused on maintaining a clean and minimalist design because I believe that an intuitive navigation experience is key to engaging the user. A good design can make the difference between abandoning an app or turning it into a space you always want to return to.
                         </p>
 
                         <p>With <strong>Book Nook</strong>, you can</p>
@@ -28,7 +28,7 @@ function About() {
                         </ul>
 
                         <h4 className="italic">
-                        Reading is a refuge, and Book Nook wants to be its digital reflection.
+                            Reading is a refuge, and Book Nook wants to be its digital reflection.
                         </h4>
                     </div>
                 </section>
