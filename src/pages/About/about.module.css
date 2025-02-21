@@ -1,4 +1,4 @@
-.about-page {
+.aboutPage {
     background-color: rgba(179, 211, 212, 0.192);
     backdrop-filter: blur(5px);
     width: 820px;
@@ -11,26 +11,23 @@
     padding-top: 90px;
 }
 
-.about-page h1 {
-   font-weight: bold;
-   color: rgb(0, 0, 0);
-   font-size: 35px;
-   margin-bottom: -10px;
+.aboutTitle {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
 }
 
-.about-page p {
+.aboutContent p {
     width: 600px;
     font-size: 1.3rem;
 }
 
-.about-page ul>li {
+.aboutList>li {
     font-size: 1.2rem;
     list-style: none;
     margin-left: -15px;
-}
-
-.about-page h1 {
-    text-transform: uppercase;
 }
 
 .italic {
