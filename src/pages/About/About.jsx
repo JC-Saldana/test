@@ -1,15 +1,15 @@
-import "./about.module.css"
+import styles from "./about.module.css";
 
 function About() {
     return (
-        <div className="page">
-            <div className="about-page">
-                <section className="about-container">
+        <div className={styles.page}>
+            <div className={styles.aboutPage}>
+                <section className={styles.aboutContainer}>
                     <header>
                         <h1>about...</h1>
                     </header>
 
-                    <div className="about-content">
+                    <div className={styles.aboutContent}>
                         <p>
                             Book Nook is a cozy corner designed for book lovers who want to keep an organized and accessible record of their books. The idea comes from my personal experience as a reader and the need to manage my personal library in a more comfortable and visually pleasant way.
                         </p>
@@ -27,7 +27,7 @@ function About() {
                             <li>📊 Track your progress and reading habits.</li>
                         </ul>
 
-                        <h4 className="italic">
+                        <h4 className={styles.italic}>
                             Reading is a refuge, and Book Nook wants to be its digital reflection.
                         </h4>
                     </div>
